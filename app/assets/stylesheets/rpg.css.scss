@@ -1,0 +1,39 @@
+// Place all the styles related to the Rpg controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+body{
+	font-family: sans-serif;
+}
+
+.place{
+	border:1px solid black;
+	display: inline-block;
+	text-align: center;
+	height: 170px;
+	width: 250px;
+	margin: 10px;
+}
+.place input{
+border-radius: 5px;
+
+}
+#activityBox{
+	border:1px solid black;
+	height: 200px;
+	width: 550px;
+	margin: 10px;
+	overflow-x:hidden; 
+}
+
+#resetbtn input{
+	margin: 20px;
+	border-radius: 5px;
+}
+.greenText{
+	color: green;
+	margin: 0px;
+}
+.redText{
+	color:red;
+	margin: 0px;
+}
